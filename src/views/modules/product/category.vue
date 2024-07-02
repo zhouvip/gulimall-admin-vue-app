@@ -227,7 +227,7 @@ export default {
         // console.log(
         //   `this.maxLevel：${this.maxLevel}；draggingNode.data.catLevel：${draggingNode.data.catLevel}；dropNode.level：${dropNode.level}`
         // );
-        return deep + dropNode.level <= 3;
+        return deep + dropNode.level <= 5;
       } else {
         return deep + dropNode.parent.level <= 3;
       }
